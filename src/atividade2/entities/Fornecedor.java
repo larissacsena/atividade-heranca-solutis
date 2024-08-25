@@ -34,7 +34,7 @@ public class Fornecedor extends Pessoa {
         this.debtAmount = debtAmount;
     }
 
-    public double getBalance(){
+    public double getBalance() {
         return creditAmount - debtAmount;
     }
 
